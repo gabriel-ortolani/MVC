@@ -2,7 +2,7 @@
     // Incluir o arquivo 'aluno.php', que contem a classe Aluno.
     // incluir o alunosView.php, que contem a função exibirAlunos(),
     require_once 'aluno.php';
-    require_once 'aliunosView.php';
+    require_once 'alunosView.php';
 
     // Declaração da classe alunoController.
     // Essa classe é responsavel pela comunicação entre o aluno.php(Model) e o alunosView.php(View).
