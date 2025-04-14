@@ -23,7 +23,7 @@
             // chama o metodo listarAlunos()do modelo e armazena na variavel $alunos.
             $alunos = $this->model->listarAlunos();
             // chama a função exibir alunos e envia a lista para mostrar no navegador.
-            exibirAlunos($aluno);
+            exibirAlunos($alunos);
         }
     }
     // execução do codigo
