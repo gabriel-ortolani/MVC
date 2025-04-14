@@ -26,5 +26,9 @@
             exibirAlunos($aluno);
         }
     }
-
+    // execução do codigo
+    // aqui fora da classe é criado um objeto do tipo AlunoController.
+    $controler = new alunoController();
+    // Apos criar o Objeto, é chamado o metodo listar();
+    $controler->listar();
 ?>
